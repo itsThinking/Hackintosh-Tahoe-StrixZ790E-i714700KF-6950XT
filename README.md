@@ -66,23 +66,23 @@ Scores are comparing this Hackintosh vs. Mac Studio M4 Max 14-Core CPU/32-Core G
 **<u>ASUS BIOS Settings</u>**
 
 Advanced<br>
-	CPU Configuration<br>
-		CPU - Power Management Control<br>
-			CPU C-States = **Enabled**<br>
-	Platform Misc Configuration<br>
-		Native ASPM = **Enabled**<br>
-		DMI ASPM = **Auto**<br>
-		DMI Gen3 ASPM = **Auto**<br>
-		PEG - ASPM = **L0sL1**<br>
-	PCH-FW Configuration<br>
-		PTT = **Enabled**<br>
-	Trusted Computing<br>
-		Security Device Support = **Disabled** (this is TPM)<br>
-	UEFI Variables Protection<br>
-		Password protection of Runtime Variables = **Disabled**<br>
+    CPU Configuration<br>
+        CPU - Power Management Control<br>
+            CPU C-States = **Enabled**<br>
+    Platform Misc Configuration<br>
+        Native ASPM = **Enabled**<br>
+        DMI ASPM = **Auto**<br>
+        DMI Gen3 ASPM = **Auto**<br>
+        PEG - ASPM = **L0sL1**<br>
+    PCH-FW Configuration<br>
+        PTT = **Enabled**<br>
+    Trusted Computing<br>
+        Security Device Support = **Disabled** (this is TPM)<br>
+    UEFI Variables Protection<br>
+        Password protection of Runtime Variables = **Disabled**<br>
 Boot<br>
-	Fast Boot = **Disabled**<br>
-	Setup Mode = **Advanced Mode** (optional)<br>
+    Fast Boot = **Disabled**<br>
+    Setup Mode = **Advanced Mode** (optional)<br>
 
 
 
