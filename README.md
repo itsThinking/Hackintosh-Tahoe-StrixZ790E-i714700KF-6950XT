@@ -1,5 +1,7 @@
 # :apple: Strix Z790-E + i7-14700KF + 6950 XT
 
+![](h732.png)
+
 **macOS**: Tahoe (26.0.1)<br>
 **OpenCore**: 1.0.6 (release 2025-09-11)
 
