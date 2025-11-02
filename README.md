@@ -2,7 +2,7 @@
 
 ![](h732.png)
 
-**macOS**: Tahoe (26.0.1)<br>
+**macOS**: Tahoe (26.1)<br>
 **OpenCore**: 1.0.6 (release 2025-09-11)
 
 Farewell to Hackintosh and thank you for all the work [Acidanthera](https://github.com/acidanthera)!<br>
