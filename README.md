@@ -5,8 +5,7 @@
 **macOS**: Tahoe (26.1)<br>
 **OpenCore**: 1.0.6 (release 2025-09-11)
 
-Farewell to Hackintosh and thank you for all the work [Acidanthera](https://github.com/acidanthera)!<br>
-I assembled this build with the notion of running macOS Tahoe with the best hardware for at least the next 1-2 years, as Intel support has now dropped. These years of experimentation with Hackintoshes was also what made Apple so great, as the founders started out the same way. Despite the eventual proprietary ways of Apple, I know Steve Jobs and Woz would have been Hackintoshers themselves.
+Farewell to Hackintosh and thank you for all the work [Acidanthera](https://github.com/acidanthera)!
 <br><br>
 :white_check_mark: iMessage<br>
 :white_check_mark: Continuity<br>
