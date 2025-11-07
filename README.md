@@ -10,16 +10,16 @@ Farewell to Hackintosh and thank you for all the work [Acidanthera](https://gith
 :white_check_mark: iMessage<br>
 :white_check_mark: Continuity<br>
 :ballot_box_with_check: AirDrop (Hackintosh-to-Device [one-way], "Allow me to be discovered by: Everyone" isn't letting me select it)<br>
-:no_entry: Bluetooth (Turns on but drops connections)<br>
-:white_check_mark: Wi-Fi (HeliPort)<br>
+:no_entry: Bluetooth (Turns on but does not connect?)<br>
+:white_check_mark: Wi-Fi (*no* HeliPort needed!)<br>
 :white_check_mark: FileVault<br>
 :white_check_mark: Sleep<br>
 :white_check_mark: Power Management<br>
 :white_check_mark: DRM Playback<br>
 :white_check_mark: SSD TRIM<br>
 :white_check_mark: CFG Lock Removed<br>
-:white_check_mark: Audio (via built-in monitor speaker for now)<br>
-:x: Boot Chime (Files/Settings are there, but finish when I have speakers)<br>
+:white_check_mark: Audio<br>
+:x: Boot Chime (Files/Settings are there, but not working at the moment)<br>
 <br>
 
 | Hardware | &nbsp; |
@@ -29,7 +29,7 @@ Farewell to Hackintosh and thank you for all the work [Acidanthera](https://gith
 | GPU      | PowerColor Red Devil AMD Radeon RX 6950 XT               |
 | RAM      | 32GB Corsair Vengeance DDR5 6000MHz (2 x 16GB)           |
 | SSD      | 2TB WD_BLACK SN850X NVMe                                 |
-| BT/Wi-Fi | BCM94360CD (*Optional*: I have this card in case there is a way to support Bluetooth again. Wi-Fi is handled by the motherboard) |
+| BT/Wi-Fi | BCM943602CDP |
 
 <br>
 
@@ -94,13 +94,9 @@ Boot<br>
 - BIOS version ***must*** be 1801, anything beyond breaks the setup when ACPIs are trying to load
 - CFG Lock command for `Modified GRUB Shell`:
   ```setup_var_cv CpuSetup 0x44 0x01 0x00```
-- I originally had the Samsung 990 Pro NVMe, but faced issues dealing with mass files (even with `NVMeFix`), so I got the recommended WD_BLACK series
-- If dual booting, select macOS as the startup disk via `System Settings` -> `General` -> `Startup Disk`
-- Of course, HeliPort must be installed later for Wi-Fi
 
 <br>
 
 **<ins>TODO</ins>**
-- Bluetooth via BCM94360CD card, if possible ([Possible Broadcom Fix for Tahoe](https://www.tonymacx86.com/threads/success-with-broadcom-bcm943602cdp-wifi-under-tahoe.332619/))<br>
+- Bluetooth<br>
 - Speakers + Boot Chime<br>
-- Make AirDrop two-way<br>
